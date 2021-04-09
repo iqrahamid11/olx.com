@@ -1,0 +1,33 @@
+/* .div-1{
+    background-color: rgb(125, 130, 255);
+}
+.header{
+    color: rgb(150, 50, 70);
+} */
+
+
+/* .format:link{
+    color: salmon;
+    text-decoration: none;
+}
+.format:visited{
+    color: seagreen;
+}
+.format-2:link{
+    color: steelblue;
+    text-decoration: none;
+}
+
+.format-2:visited{
+    color: black;
+} */
+
+input:hover{
+    background-color: burlywood;
+}
+input:focus{
+    background-color: coral;
+}
+button:active{
+    background-color: cornflowerblue;
+}

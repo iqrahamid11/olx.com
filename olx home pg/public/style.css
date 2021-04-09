@@ -1,0 +1,338 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+@media screen and  (max-width: 100%) body
+ { width: 250px;
+   height: auto;
+}
+
+.Main{
+    background-color: rgba(53, 109, 150, 0.07);
+    width:100% ;
+    height: 80px; ;
+    justify-content: space-between;
+}
+
+
+.Main1 {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.logo {
+
+width: 100px;
+height: 65px;
+padding-top:10px;
+background-color:rgba(53, 109, 150, 0.07) ;
+}
+
+.input {
+    padding-top: 15px;
+  
+}
+
+.input1 {
+    padding-top: 15px;
+}
+
+
+.inputplace{
+    width: 300px;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 17px;
+    border-color: lightgray;
+}
+.input1place {
+    width: 600px;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 17px;
+    border-color: darkgray;
+}
+.inputplace::placeholder {
+    background-image: url(images/search1.png);
+    background-repeat: no-repeat;
+    height: 35px;
+    color: black;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+.input1place::placeholder {
+    color: darkgray;
+}
+
+
+
+.login {
+font-size: 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-justify: auto;
+padding-top: 22px;
+}
+.login a {
+    color: black;
+}
+.sell {
+
+    padding-top: 22px;
+   
+}
+.sell button {
+ font-size: 22px;
+text-justify: auto;
+border-radius: 20px;
+border-color: rgb(109, 58, 204);
+}
+
+/* second header */
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color:#ffffff;
+    text-align: center;
+}
+.header1 {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.header1 ul li {
+  
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    font-size: 17px;
+    padding-right: 20px;
+    color: #2d5357;
+}
+ .bannerimage {
+    width: 100%;
+    height: auto;
+}
+
+
+.section {
+    padding: 40px;
+    justify-content: space-around;
+    border-color: rgb(24, 19, 13);
+}
+.cardsection {
+    background-color: #ebeeef;;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+   
+}
+.cardsection > h3 {
+    font-family:  sans-serif;
+    color: darkgrey;
+    padding-top: 40px;
+    padding-left: 60px;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    
+}
+.cardsbody-1 {
+    padding: 10px;
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.card-1 {
+    background-color: white;
+    height: 350px;
+    box-shadow: thistle;
+}
+.card-img   {
+    padding: 10px;
+}
+ h2 p {
+     background-color: burlywood;
+    padding: 100px;
+}
+.card-1content {
+    border-left: 5px solid yellow; 
+    padding: 10px;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.section2 {
+    padding: 40px;
+    justify-content: space-around;
+    border-color: rgb(24, 19, 13);
+}
+.cardsection2 {
+    background-color: #ebeeef;;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+   
+}
+.cardsection2 > h3 {
+    font-family:  sans-serif;
+    color: darkgray;
+    padding-top: 40px;
+    padding-left: 60px;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    
+}
+.cardsbody-2 {
+    padding: 10px;
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.card-2 {
+    background-color: white;
+    height: 350px;
+    box-shadow: thistle;
+}
+.card2-img   {
+    padding: 10px;
+}
+ h2 p {
+     background-color: burlywood;
+    padding: 100px;
+}
+.card-2content {
+    border-left: 5px solid yellow; 
+    padding: 10px;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section3 {
+    padding: 40px;
+    justify-content: space-around;
+    border-color: rgb(24, 19, 13);
+}
+.cardsection3 {
+    background-color: #ebeeef;;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+   
+}
+.cardsection3 > h3 {
+    font-family:  sans-serif;
+    color: darkgray;
+    padding-top: 40px;
+    padding-left: 60px;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    
+}
+.cardsbody-3 {
+    padding: 10px;
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.card-3 {
+    background-color: white;
+    height: 350px;
+    box-shadow: thistle;
+}
+.card3-img   {
+    padding: 10px;
+}
+ h2 p {
+     background-color: burlywood;
+    padding: 100px;
+}
+.card-3content {
+    border-left: 5px solid yellow; 
+    padding: 10px;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+}
+.loadmore {
+    text-align: center;
+
+}
+.loadmore > button {
+height: 50px;
+font-family: sans-serif;
+background-color: white;
+border: 3px solidrgb(14, 11, 11)y;
+font-size: 20px;
+color: darkgray;
+font-weight: bold;
+}
+/* load more end */ 
+
+/* footer */
+
+.footer {
+background-color: rgb(235 238 239);
+}
+
+.footer-content {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+.footer-col {
+text-align: left;
+}
+ul > li {
+list-style: none;
+}
+
+.footer-ul {
+text-align: center;
+font-size: 15px;
+color: rgb(0 47 52);
+}
+.footer-img {
+padding: 3px;
+}
+
+
+
+.sub-footer {
+display: inline;
+width: 100%;
+
+}
+#subfoot {
+
+display: flex;
+flex-wrap: wrap;
+height: 60px;
+
+justify-content: space-around;
+background-color: #00331e;
+}
+.sub-footer-col {
+display: flex;
+ 
+
+}
+.sub-footer-col > h3 {
+font-family:  Times, sans-serif, serif;
+color:white;;
+}
